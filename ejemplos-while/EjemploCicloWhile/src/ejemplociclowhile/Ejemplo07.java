@@ -31,11 +31,19 @@ public class Ejemplo07 {
         int contador = 0;
 
         System.out.println("Ingrese las notas de los estudiantes de su materia");
+        // while (bandera == true)
         while (bandera) {
+            /*
+            nos ayuda como condicional para salir o seguir en el ciclo
+            */
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
             suma_total = suma_total + calificacion;
             contador = contador + 1;
+            /*
+            en este caso el contador nos idicara segun el numero de 
+            datos ingresados para cuanto dividir
+             */
             // proceso para salir del ciclo.
             System.out.println("Ingrese el valor de -1 para salir del ciclo");
             int temporal = entrada.nextInt();
@@ -47,6 +55,10 @@ public class Ejemplo07 {
 
         promedio_final = suma_total / contador;
         System.out.printf("El promedio final es %.2f\n", promedio_final);
+        /*
+        es la division de la suma de los datos ingresados para el numero q tenga
+        el contador hasta dicho momento 
+        */
 
     }
 }
