@@ -24,7 +24,7 @@ public class Ejemplo02 {
         limite = entrada.nextInt(); 
         while (contador <= limite){
             
-            if (contador%3!=0) {
+            if (contador%2!=0) {
                 System.out.printf("Contador %d\n", 
                     contador);
             }
@@ -34,5 +34,7 @@ public class Ejemplo02 {
         
     }
 }
-// al ingresar un limite el programa nos mostrara valores impares sin 
-// sobrepasar el limite ingresado
+/*
+al ingresar un limite el programa nos mostrara los numeros divisibles para dos 
+por el segundo condicional   
+*/
