@@ -29,7 +29,6 @@ public class Ejemplo032 {
         while (contador <= limite) {
             System.out.println("Ingrese el valor a sumar");
             valor_ingresado = entrada.nextInt();
-            suma = suma + valor_ingresado;
             if (valor_ingresado >= 20 && valor_ingresado <= 35) {
                 suma = suma + valor_ingresado;
             } else {
